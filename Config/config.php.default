@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Your Default User and Password for API Access
+ */
+$user = '';
+$pass = '';
+
+/**
+ * Required for easy Registration
+ */
+$defaultContact = array(
+    'firstName' => '',
+    'lastName' => '',
+    'organization' => '',
+    'street' => '',
+    'city' => '',
+    'state' => '',
+    'zip' => '',
+    'country' => '',
+    'phone' => '',
+    'email' => ''
+);
