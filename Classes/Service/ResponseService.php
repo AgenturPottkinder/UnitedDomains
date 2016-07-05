@@ -26,8 +26,7 @@ class ResponseService
         {
             $response = self::readLine($singleMessageLine, $response);
         }
-        var_dump($response);
-        return new Response();
+        return $response;
     }
 
     /**

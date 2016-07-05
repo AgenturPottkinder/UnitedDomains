@@ -147,11 +147,19 @@ class Response
      * function setDescription
      *
      * @param string $description
-     *
      * @return void
      */
     public function setDescription($description)
     {
         $this->description = $description;
+    }
+
+    /**
+     * function isSuccessfull
+     *
+     * @return bool
+     */
+    public function isSuccessfull() {
+        return $this->code == 200;
     }
 }

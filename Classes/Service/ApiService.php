@@ -65,10 +65,10 @@ class ApiService
      */
     public function moveDomainAndZoneToAccount($domain, $customer)
     {
-        $response = $this->moveDomainToAccount($domain, $customer);
-        echo '<pre>'; var_dump($response); echo '</pre>';
-        $response = $this->moveZoneToAccount($domain, $customer);
-        echo '<pre>'; var_dump($response); echo '</pre>';
+        $response = [];
+        $response[] = $this->moveDomainToAccount($domain, $customer);
+        $response[] = $this->moveZoneToAccount($domain, $customer);
+        return $response;
     }
 
     /**

@@ -2,6 +2,8 @@ ud.php
 Config/config.php
 .DS_Store
 .idea/
+vendor
+composer.lock
 
 ############
 # Packages #

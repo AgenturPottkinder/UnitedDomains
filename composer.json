@@ -1,0 +1,18 @@
+{
+  "name": "Pottkinder/UnitedDomains",
+  "description": "United Domains Reselling API Bundle",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {"Pottkinder\\UnitedDomains\\": "Classes/"}
+  },
+  "authors": [
+    {
+      "name": "Bastian Bringenberg",
+      "email": "bastian@agentur-pottkinder.de"
+    }
+  ],
+  "require": {
+    "symfony/console": "3.1.x-dev"
+  }
+}
